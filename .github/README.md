@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/ArmynC/ArminC-AutoExec/archive/master.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-AutoExec/master/arminc_autoexec.png" alt="ArminC AutoExec"></a>
+  <a href="https://github.com/ArmynC/ArminC-AutoExec/archive/master.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-AutoExec/master/arminc_autoexec.svg" alt="ArminC AutoExec"></a>
 </h1>
 
-<h4 align="center">A high-quality CS:GO config built for gamers.</h4>
+<h4 align="center">A high-quality Counter-Strike 2 config built for gamers.</h4>
 
 <p align="center">
     <a href="https://github.com/ArmynC/ArminC-AutoExec/commits/master">
@@ -15,19 +15,20 @@
     <a href="https://github.com/ArmynC/ArminC-AutoExec/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub pull requests">
-    <a href="https://twitter.com/intent/tweet?text=Try this CS:GO AutoExec:&url=https%3A%2F%2Fgithub.com%2FArmynC%2FArminC-AutoExec">
+    <a href="https://twitter.com/intent/tweet?text=Try this Counter-Strike 2 autoexec:&url=https%3A%2F%2Fgithub.com%2FArmynC%2FArminC-AutoExec">
     <img src="https://img.shields.io/twitter/url/https/github.com/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=twitter"
          alt="GitHub tweet">
 </p>
       
 <p align="center">
-  <a href="#about">About</a> •
   <a href="#installation">Installation</a> •
   <a href="#updating">Updating</a> •
   <a href="#features">Features</a> •
+  <a href="#symbols">Symbols</a> •
   <a href="#binds">Binds</a> •
   <a href="#wiki">Wiki</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="#deprecated">Deprecated</a> •
   <a href="#credits">Credits</a> •
   <a href="#support">Support</a> •
   <a href="#license">License</a>
@@ -35,17 +36,15 @@
 
 ---
 
-## About
-
 <table>
 <tr>
 <td>
   
-**ArminC AutoExec** is a **high-quality** _config_ for _Counter-Strike: Global Offensive_ that aims to **improve the gameplay** and its **template is perfect**, enabling you to **customize** the game **settings** to your liking.
+**ArminC AutoExec** is a high-quality _config_ for **Counter-Strike 2** that aims to improve the gameplay by enabling you to customize the game settings to your liking through its template system.
 
-It comes **filled** with **optimizations** that make use of the **all network capacity** and **game advantages**, overall **improving the gameplay** for a wide variety of _computers and players_.
+It comes filled with little optimizations such as **network capacity**, overall improving the gameplay for a wide variety of computers and players.
 
-**Each and one** of the **commands** are **finely-tuned**, _enabling all game's capacity_ (compared to default settings), **helping you** through the matchmaking.
+Each and every one of the commands provided are **finely tuned**, enabling the game's full potential compared to default settings.
 
 ![ArminC AutoExec Code](https://raw.githubusercontent.com/ArmynC/ArminC-AutoExec/master/arminc_autoexec_code.png)
 <p align="right">
@@ -59,25 +58,17 @@ It comes **filled** with **optimizations** that make use of the **all network ca
 ## Installation
 
 ##### Downloading and installing steps:
-* **[Download](https://github.com/ArmynC/ArminC-AutoExec/archive/master.zip)** the latest version of the config.
-* **Go** to the following path: `\...\Steam\userdata\<Your_SteamID3>\730\local\`
-  * See below **[how to find your SteamID3](https://github.com/ArmynC/ArminC-AutoExec#how-to-find-your-steamid3)**.
-* Place the **cfg** folder (from .zip) inside the **local** folder (from the path).
-  * Replace all files if it asks.
-    * To use the **Video Settings**, rename `video_optional.txt` to `video.txt` and set it to `Read-only`.
-* **[OPTIONAL]** Set the **[launch options](https://github.com/ArmynC/ArminC-AutoExec/wiki/Launch-Options)**.
-  * **Right-click** on the **game title** under the _Library_ in Steam and select **Properties**.
-  * Under the **General tab** click the **Set launch options...** button.
-  * **Enter** the **launch options** you wish to apply (_be sure to separate each code with space_) and click **OK**.
-  * **Close** the _Properties_ window and **launch the game**
-* **Launch** the game and **type** in the _console_ the following command: `exec autoexec.cfg`
+1. **[Download](https://github.com/ArmynC/ArminC-AutoExec/archive/master.zip)** the latest version of the config.
+2.  Open the _archive_ and **extract** the contents of the `cfg` folder into the following path folder:<br>
+`\...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\`
+3. **Launch** the game and **type** in the _console_ the following command: `exec autoexec.cfg`
+   * If the autoexec isn't booting, perhaps try to use the launch option: `+exec autoexec.cfg`
 
-##### How to find your SteamID3:
+> [!IMPORTANT]  
+> The buy-binds layout in CS2 has changed. Be aware that you should modify the in-game loadout as indicated.
 
-* **Go** to [SteamID](https://steamid.io/).
-* In the _input_ box, **enter** your **profile** name/id and press ***lookup**.
-* All the SteamIDs versions will be shown. You need **SteamID3**.
-  * The format: `[X:Y:ZZZZZZZZ]` - where your *install path id* is the whole `Z` code.
+> [!NOTE]  
+> The crosshair is designed for a 1920x1080 resolution; in other case, the experience may vary.
 
 ## Updating
 
@@ -89,19 +80,17 @@ When a **new version** is out, you have **two methods** to _update_:
 ##### 2. You haven't edited the config (or at least not so much):
 * **Delete everything** (or **replace the files** when it asks).
 * **Redo** the [installation](https://github.com/ArmynC/ArminC-AutoExec#installation) steps.
-* _After setup_, **change your preference** settings back (if it is the case).
-
-This _config_ is **updated** (at a random time), so make sure you **come back** here to **check** for **updates**.
+* _After setup_, **change your preference** settings back (if that is the case).
 
 ## Features
 
 |                            | 🔰 ArminC AutoExec  | ◾ Other Configs |
-| -------------------------- | :----------------: | :-------------: |
-| Optimized values           |         ✔️         |        ❌        |
-| Useful scripts             |         ✔️         |        ❌        |
+| -------------------------- | :-----------------: | :---------------: |
+| Optimized values           |         ✔️         |        〰️        |
+| Useful scripts             |         ✔️         |        〰️        |
+| Enabled in-game advantages |         ✔️         |        〰️        |
 | Documented commands        |         ✔️         |        ❌        |
-| Enabled in-game advantages |         ✔️         |        ❌        |
-| No misconcepted commands   |         ✔️         |        ❌        |
+| No misconfigured commands  |         ✔️         |        ❌        |
 | Professional info sources  |         ✔️         |        ❌        |
 | Clean sheet/template       |         ✔️         |        ❌        |
 | Easy to customize          |         ✔️         |        ❌        |
@@ -113,26 +102,34 @@ This _config_ is **updated** (at a random time), so make sure you **come back** 
 
       *: Multiple commands under a category
      >>: Official description
-	<->: Analysis
+    <->: Analysis
     <i>: Informal
     <!>: Important
 
+     /\
+     ||: Select any float/decimal value within the provided range
+     \/
+
 ## Binds
-![ArminC AutoExec Binds](https://raw.githubusercontent.com/ArmynC/ArminC-Keyboard-Layout/master/image/arminc_autoexec_binds.png)
+![ArminC AutoExec Binds](https://raw.githubusercontent.com/ArmynC/ArminC-AutoExec/master/arminc_autoexec_binds.png)
 
 ## Wiki
 
-Do you **need some help**? Check the _articles_ from the [wiki](https://github.com/ArmynC/ArminC-AutoExec/wiki/).
+Do you **need some help**? Check out the _articles_ on the [wiki](https://github.com/ArmynC/ArminC-AutoExec/wiki/).
 
 ## Contributing
 
 Got **something interesting** you'd like to **share**? Learn about [contributing](https://github.com/ArmynC/ArminC-AutoExec/blob/master/.github/CONTRIBUTING.md).
+        
+## Deprecated
+
+Looking for the older **CS:GO** version? [Press here](https://github.com/ArmynC/ArminC-CSGO-AutoExec).
 
 ## Credits
 
-| [![ArminC](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/a_small.png)](https://github.com/ArmynC) | ![Community](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/community.png)		|
+| [![ArminC](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/a_small.png)](https://github.com/ArmynC)  | ![Community](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/community.png)		|
 |:------------------------------------------------------------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------------------:	|
-|                                                    **Armin Chanchian**                                                    |                                           **The community**                                           |
+|                                                         **ArminC**                                                         |                                            **The community**                                           |
 
 ## Support
 
